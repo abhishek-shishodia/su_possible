@@ -1,6 +1,8 @@
 
 import React from 'react';
 import { X, Clock, DollarSign } from 'lucide-react';
+import { IndianRupee } from 'lucide-react';
+
 
 interface Service {
   id: number;
@@ -69,10 +71,13 @@ const ServiceModal: React.FC<ServiceModalProps> = ({ service, isOpen, onClose })
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
             <div className="glass-effect p-6 rounded-xl">
               <div className="flex items-center space-x-3 mb-2">
-                <DollarSign size={20} className="text-yellow-400" />
+                {/* <DollarSign size={20} className="text-yellow-400" /> */}
+                <IndianRupee size={20} className="text-yellow-400" />
+
                 <h4 className="font-bold text-white">Pricing</h4>
               </div>
               <p className="text-2xl font-bold text-yellow-400">{service.pricing}</p>
+              <p className="text-1xl font-bold text-white-100 text-center">(Negotiable)</p>
             </div>
 
             <div className="glass-effect p-6 rounded-xl">
@@ -87,11 +92,11 @@ const ServiceModal: React.FC<ServiceModalProps> = ({ service, isOpen, onClose })
           <div className="bg-yellow-400/10 border border-yellow-400/30 p-6 rounded-xl mb-6">
             <h4 className="font-bold text-yellow-400 mb-3">Client Onboarding Flow:</h4>
             <ol className="space-y-2 text-sm text-gray-300">
-              <li>1. Free Consultation Call</li>
-              <li>2. Proposal & Timeline Sharing</li>
-              <li>3. Kickoff Meeting + Access/Assets Collection</li>
-              <li>4. Weekly Updates & Review Checkpoints</li>
-              <li>5. Final Delivery + Support Phase</li>
+              {/* <li>1. Free Consultation Call</li> */}
+              <li>1. Proposal & Timeline Sharing</li>
+              <li>2. Kickoff Meeting + Access/Assets Collection</li>
+              <li>3. Weekly Updates & Review Checkpoints</li>
+              <li>4. Final Delivery + Support Phase</li>
             </ol>
           </div>
 

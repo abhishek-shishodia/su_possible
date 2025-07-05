@@ -237,7 +237,7 @@ const ContactSection: React.FC = () => {
                   <div className="flex items-start space-x-3">
                     <CheckCircle size={20} className="text-yellow-400 mt-0.5" />
                     <div>
-                      <h4 className="font-medium text-white">Free Consultation</h4>
+                      <h4 className="font-medium text-white">Requirement Review</h4>
                       <p className="text-gray-300 text-sm">Schedule a discovery call</p>
                     </div>
                   </div>
