@@ -23,6 +23,7 @@ const FoundersSection: React.FC = () => {
             </div>
             <div className="absolute inset-0 w-48 h-48 mx-auto rounded-full bg-yellow-400 opacity-0 group-hover:opacity-10 transition-opacity duration-300"></div>
           </div>
+          <h4 className="text-xl font-bold text-yellow-400 mb-2 glow-text">Pratham Kataria</h4>
           <h4 className="text-xl font-bold text-yellow-400 mb-2 glow-text">Founder & CEO</h4>
           <div className="glass-effect p-6 rounded-xl">
             <p className="text-gray-300 italic text-lg leading-relaxed">
@@ -43,6 +44,7 @@ const FoundersSection: React.FC = () => {
             </div>
             <div className="absolute inset-0 w-48 h-48 mx-auto rounded-full bg-yellow-400 opacity-0 group-hover:opacity-10 transition-opacity duration-300"></div>
           </div>
+          <h4 className="text-xl font-bold text-yellow-400 mb-2 glow-text">Abhishek Shishodia</h4>
           <h4 className="text-xl font-bold text-yellow-400 mb-2 glow-text">Co-founder & CTO</h4>
           <div className="glass-effect p-6 rounded-xl">
             <p className="text-gray-300 italic text-lg leading-relaxed">
