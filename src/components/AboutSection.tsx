@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Users, Award, Clock, Lightbulb } from 'lucide-react';
-import FoundersSection from './FoundersSection';
+// import FoundersSection from './FoundersSection';
 
 const AboutSection: React.FC = () => {
   const stats = [
@@ -93,7 +93,7 @@ const AboutSection: React.FC = () => {
           </div>
         </div>
 
-        <FoundersSection />
+        {/* <FoundersSection /> */}
       </div>
     </section>
   );
