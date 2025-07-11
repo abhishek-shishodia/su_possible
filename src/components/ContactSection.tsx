@@ -186,7 +186,7 @@ const ContactSection: React.FC = () => {
                     </div>
                     <div>
                       <h4 className="font-medium text-white">Email</h4>
-                      <p className="text-gray-300">spreadup.your.wings@gmail.com</p>
+                      <p className="text-gray-300">helpdesk@spreadup.in</p>
                     </div>
                   </div>
                   
