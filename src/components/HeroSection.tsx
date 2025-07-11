@@ -22,7 +22,8 @@ const HeroSection: React.FC<HeroSectionProps> = ({ onGetStarted }) => {
             <h1 className="text-5xl lg:text-8xl font-bold leading-tight mb-6">
               <span className="text-white">We build</span>
               <br />
-              <span className="text-yellow-400 custom-tech-glow">
+              <span className="text-yellow-400 glow-text">
+                {/* <span className="text-yellow-400 custom-tech-glow"> */}
                 Custom Technology
               </span>
               <br />
